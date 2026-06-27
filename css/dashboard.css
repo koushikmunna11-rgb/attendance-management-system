@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.sidebar{
+    position:fixed;
+    width:260px;
+    height:100vh;
+    background:#1e293b;
+    color:#fff;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:24px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+    transform:translateX(5px);
+}
+
+.content{
+    margin-left:280px;
+    padding:30px;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.topbar h2{
+    color:#1e293b;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card-box{
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card-box:hover{
+    transform:translateY(-5px);
+}
+
+.blue{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+}
+
+.green{
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+}
+
+.red{
+    background:linear-gradient(135deg,#ef4444,#dc2626);
+}
+
+.purple{
+    background:linear-gradient(135deg,#7c3aed,#6d28d9);
+}
+
+.card-box i{
+    font-size:35px;
+}
+
+.card-box h1{
+    margin-top:15px;
+    font-size:35px;
+}
+
+.card-box p{
+    margin-top:5px;
+}
