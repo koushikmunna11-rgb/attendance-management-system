@@ -31,16 +31,9 @@ A web-based Student Attendance Management System developed using PHP, MySQL, HTM
 <img width="1831" height="752" alt="image" src="https://github.com/user-attachments/assets/b32359d7-068c-4dca-9667-7768d1836210" />
 <img width="1823" height="482" alt="image" src="https://github.com/user-attachments/assets/0b5fae7e-ce08-4780-be99-1014a29929da" />
 
+## 🌐 Live Demo
 
-## 🚀 Installation
-
-1. Install XAMPP.
-2. Copy the project to `htdocs`.
-3. Import the database into phpMyAdmin.
-4. Start Apache and MySQL.
-5. Open:
-
-http://localhost/attendance_system
+Website: https://basicattendence.42web.io
 
 ## 👨‍💻 Developed By
 
